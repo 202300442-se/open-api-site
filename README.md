@@ -2,9 +2,9 @@
 
 한국천문연구원 특일 정보 Open API를 활용하는 6주차 실습 사이트입니다.
 
-- 저장소 예정 주소: https://github.com/202300442-se/open-api-site
-- 배포 예정 주소: https://202300442-se.github.io/open-api-site/
-- 위 주소는 GitHub 저장소 생성 및 Actions 배포 성공 후 사용할 수 있습니다.
+- 저장소: https://github.com/202300442-se/open-api-site
+- 공개 사이트: https://202300442-se.github.io/open-api-site/
+- 현재 상태(2026-10-07): 실제 API 조회 및 GitHub Pages 배포 성공. 공개 URL HTTP 200 확인. 2026년 10월 공휴일 3건 표시. 자동 검사 24개 통과, 모바일 390px·PC 1440px 가로 넘침 없음.
 - 출처: https://www.data.go.kr/data/15012690/openapi.do
 - 수업 팁은 실습자료 sample.csv의 예시 콘텐츠입니다.
 
@@ -13,7 +13,7 @@
 GitHub Actions → Secret에서 인증키 읽기 → API 조회 → HTML·JSON 생성 → GitHub Pages 배포.
 방문자의 브라우저는 생성된 결과만 읽습니다. 인증키는 HTML과 JSON에 포함되지 않습니다.
 
-## GitHub 설정
+## GitHub 설정 (설정 완료 / 재현 방법)
 
 1. 202300442-se 계정에서 Public 저장소 open-api-site를 만듭니다.
 2. 이 폴더의 파일을 저장소 최상위에 올립니다. open-api-site 폴더 자체를 중첩 업로드하지 않습니다.
